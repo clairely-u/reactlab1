@@ -11,9 +11,11 @@ function App() {
     <div className="App">
       <Header
       user = "Bongus"/>
+
       <div className="AppBody">
+
         <div className = "AdExContainers">
-        <Ad 
+      <Ad 
       flavor = "Vanilla"
       fontSize={20}
       darkTheme = {true}/>
@@ -26,8 +28,11 @@ function App() {
       fontSize={20}
       darkTheme = {true}/>
         </div>
+
+      <div className = "DesignerAndVote">
       <AdDesigner />
       <Vote />
+      </div>
       </div>
     </div>
   );

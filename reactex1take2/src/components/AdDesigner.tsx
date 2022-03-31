@@ -22,7 +22,7 @@ export default function AdDesigner() {
                     fontSize: `${fontSize}px`
                 }}>
                    
-                    Vote for {flavor}!
+                    Vote for <h2> {flavor}</h2>!
                 </div>
 
                 <h3>What to Support</h3>

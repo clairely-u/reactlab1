@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import './Ad.css';
 
 interface Props {
     flavor: string;
